@@ -1,0 +1,79 @@
+body {
+  background: rgb(125, 255, 147);
+  background: linear-gradient(
+    90deg,
+    rgba(125, 255, 147, 1) 0%,
+    rgba(226, 255, 215, 1) 100%
+  );
+  margin: 0;
+  height: 100vh;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile > h1 {
+  margin: 0.5rem;
+}
+
+.profile > p {
+  margin: 0.2rem;
+}
+
+.photo {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.tag > a {
+  display: flex;
+  background-color: white;
+  margin: 1rem;
+  width: 20rem;
+  height: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  -webkit-box-shadow: 10px 9px 14px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 9px 14px 1px rgba(0, 0, 0, 0.5);
+}
+
+.tag > a:hover {
+  background-color: #f2f2f2;
+  transition: all 150ms ease-in;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+  color: gray;
+  opacity: 0.8;
+}
