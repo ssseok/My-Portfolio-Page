@@ -35,7 +35,7 @@ body {
 }
 
 .photo {
-  background-image: url(/image.jpeg);
+  background-image: url("/image.jpeg");
   background-position: center;
   background-size: cover;
   height: 8rem;
